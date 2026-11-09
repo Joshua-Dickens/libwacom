@@ -9,6 +9,10 @@ var libwacom_8h =
     [ "WacomError", "group__context.html#gad6d154a58c34d973502cfa8e50f5a148", null ],
     [ "WacomMatch", "group__devices.html#gad9598829a59951a74f91c640a01f2fad", null ],
     [ "WacomStylus", "group__styli.html#gade7dd5ce503ef37813e5f08bf1544170", null ],
+    [ "AliasStatus", "libwacom_8h.html#ab1378b52d354d3deee585f4eccd24b6b", [
+      [ "IGNORE_ALIASES", "libwacom_8h.html#ab1378b52d354d3deee585f4eccd24b6bab6e40c96bc0e5ae22b49d79fdf0ad4c7", null ],
+      [ "ONLY_ALIASES", "libwacom_8h.html#ab1378b52d354d3deee585f4eccd24b6bac7cf5d48b1db060c246163a3db703200", null ]
+    ] ],
     [ "WacomAxisTypeFlags", "group__styli.html#gaeef7d6526953f4e1a268346dafdd204f", [
       [ "WACOM_AXIS_TYPE_NONE", "group__styli.html#ggaeef7d6526953f4e1a268346dafdd204fa1c88621d522f89637b6a72c40c256abf", null ],
       [ "WACOM_AXIS_TYPE_TILT", "group__styli.html#ggaeef7d6526953f4e1a268346dafdd204fae8c4c2fc838abfb115843fca3395019e", null ],
@@ -83,14 +87,24 @@ var libwacom_8h =
     [ "WacomIntegrationFlags", "group__devices.html#ga89b8a336b7d1d0d37659db8fe976323d", [
       [ "WACOM_DEVICE_INTEGRATED_NONE", "group__devices.html#gga89b8a336b7d1d0d37659db8fe976323da9b8f1d3d89a25bf5628789a8822800f1", null ],
       [ "WACOM_DEVICE_INTEGRATED_DISPLAY", "group__devices.html#gga89b8a336b7d1d0d37659db8fe976323da957fb212fda27c9a006d6121266b04f1", null ],
-      [ "WACOM_DEVICE_INTEGRATED_SYSTEM", "group__devices.html#gga89b8a336b7d1d0d37659db8fe976323dab5f6f55d44f18b26f0569676e1344857", null ]
+      [ "WACOM_DEVICE_INTEGRATED_SYSTEM", "group__devices.html#gga89b8a336b7d1d0d37659db8fe976323dab5f6f55d44f18b26f0569676e1344857", null ],
+      [ "WACOM_DEVICE_INTEGRATED_REMOTE", "group__devices.html#gga89b8a336b7d1d0d37659db8fe976323da2bbc04b59767fec4a150b0134dfc2f10", null ]
+    ] ],
+    [ "WacomModeSwitch", "group__devices.html#ga9b8ab05f49c688ac2d5a517f87f19c0d", [
+      [ "WACOM_MODE_SWITCH_NEXT", "group__devices.html#gga9b8ab05f49c688ac2d5a517f87f19c0da36075c433e64c539d8f131b25346db96", null ],
+      [ "WACOM_MODE_SWITCH_0", "group__devices.html#gga9b8ab05f49c688ac2d5a517f87f19c0dabeea0bdb1ab7bbec1c788924cf6da70e", null ],
+      [ "WACOM_MODE_SWITCH_1", "group__devices.html#gga9b8ab05f49c688ac2d5a517f87f19c0da97fbd494a6fb354ddca7ff8c72c3e52a", null ],
+      [ "WACOM_MODE_SWITCH_2", "group__devices.html#gga9b8ab05f49c688ac2d5a517f87f19c0dabbca7c63df76f06c951f748eaad25e2c", null ],
+      [ "WACOM_MODE_SWITCH_3", "group__devices.html#gga9b8ab05f49c688ac2d5a517f87f19c0dadfd8337767b8b820d366b3e0eb6c318b", null ]
     ] ],
     [ "WacomStatusLEDs", "group__devices.html#ga18a534584fbfeb1254107b30246bcfd6", [
       [ "WACOM_STATUS_LED_UNAVAILABLE", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a3bd225390cbe0e364beb86269d746393", null ],
       [ "WACOM_STATUS_LED_RING", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a5ff0f7a54421536958f76f1fa13b32a0", null ],
       [ "WACOM_STATUS_LED_RING2", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a7764f598cd2e21bea2c2162503dda5f6", null ],
       [ "WACOM_STATUS_LED_TOUCHSTRIP", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a89bac8fcc84c8868918cb2bbe1ae683a", null ],
-      [ "WACOM_STATUS_LED_TOUCHSTRIP2", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a2fbb178e496555ec0591548dec2e141c", null ]
+      [ "WACOM_STATUS_LED_TOUCHSTRIP2", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a2fbb178e496555ec0591548dec2e141c", null ],
+      [ "WACOM_STATUS_LED_DIAL", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6a6ba522bc0a0141d1a364bf99cd11d42d", null ],
+      [ "WACOM_STATUS_LED_DIAL2", "group__devices.html#gga18a534584fbfeb1254107b30246bcfd6ae6b42697e495ca937b6ca19df6eda6a3", null ]
     ] ],
     [ "WacomStylusType", "group__styli.html#ga6f96ee71140aee8ac56c80fb8353c3f6", [
       [ "WSTYLUS_UNKNOWN", "group__styli.html#gga6f96ee71140aee8ac56c80fb8353c3f6ab0ce0a738eb1d022736559e59a7b64d6", null ],
@@ -115,6 +129,8 @@ var libwacom_8h =
     [ "libwacom_database_destroy", "group__context.html#gafdc100499a3d0760a53ec19d28ce1b12", null ],
     [ "libwacom_database_new", "group__context.html#ga9dfbecd1a2e74eac8d85e446e8d16711", null ],
     [ "libwacom_database_new_for_path", "group__context.html#ga608f10d525f4252963fee40a85136e16", null ],
+    [ "libwacom_database_ref", "group__context.html#ga6afa2d693b3a6aeeeb461016bcecbf5a", null ],
+    [ "libwacom_database_unref", "group__context.html#gaf6e5ace2c5ff8911c3cb9cac834df89c", null ],
     [ "libwacom_destroy", "group__devices.html#ga6ef7b31ab0e7039ee3aeb85fd02cb892", null ],
     [ "libwacom_error_free", "group__context.html#ga6864ec1cbb3582b386ff13fa5e23d366", null ],
     [ "libwacom_error_get_code", "group__context.html#ga7835e4ff16a2f3360ffe61769d8f009e", null ],
@@ -124,10 +140,12 @@ var libwacom_8h =
     [ "libwacom_get_button_evdev_code", "group__devices.html#ga9a24171166ee19047d67a6f772cd642d", null ],
     [ "libwacom_get_button_flag", "group__devices.html#gab62583042419e89507662048fc7593ac", null ],
     [ "libwacom_get_button_led_group", "group__devices.html#ga505f528225b6ffe639d3b44faecd4449", null ],
+    [ "libwacom_get_button_modeswitch_mode", "group__devices.html#gabd2f361ab51ab8fc09cabc61028e87f0", null ],
     [ "libwacom_get_class", "group__devices.html#gaca2749ecdda450e836843ed320b0991f", null ],
     [ "libwacom_get_dial2_num_modes", "group__devices.html#ga01d68c9440d5aea4f607282ac5fed834", null ],
     [ "libwacom_get_dial_num_modes", "group__devices.html#ga7822f49667d9090410cb31a2d4bc209f", null ],
     [ "libwacom_get_height", "group__devices.html#gac925a601e2f6b894d11b285aaf811d21", null ],
+    [ "libwacom_get_height_mm", "group__devices.html#ga685dd955074db9142011b1f810d6767c", null ],
     [ "libwacom_get_integration_flags", "group__devices.html#ga88efa2a2a569569563e81f578c7730fc", null ],
     [ "libwacom_get_layout_filename", "group__devices.html#ga0e5f1f195cb00d5f6600461438eeb7b1", null ],
     [ "libwacom_get_match", "group__devices.html#ga4cbf000134369e8db5ee4444cb040f2a", null ],
@@ -145,9 +163,11 @@ var libwacom_8h =
     [ "libwacom_get_ring_num_modes", "group__devices.html#ga1fc38e403f4b04f7b486bb469f1ae691", null ],
     [ "libwacom_get_status_leds", "group__devices.html#gafb9b35c0bda2423a6a127d854b4fe9fa", null ],
     [ "libwacom_get_strips_num_modes", "group__devices.html#ga19234b61d298ee588d66021c98e24ca7", null ],
-    [ "libwacom_get_supported_styli", "group__styli.html#gac5a503fd1bd0a48984b75676135266cc", null ],
+    [ "libwacom_get_styli", "group__styli.html#ga18cd23a382eade1bc72b3ef3c49060fb", null ],
+    [ "libwacom_get_supported_styli", "group__styli.html#ga3f82f01ec46ca1869eb54e9359970a6e", null ],
     [ "libwacom_get_vendor_id", "group__devices.html#ga6c1052b0c91503cbc4427805ccc92111", null ],
     [ "libwacom_get_width", "group__devices.html#ga1d3a693813f8798f41e8754603b8b430", null ],
+    [ "libwacom_get_width_mm", "group__devices.html#ga07a9902de47f76d26d5fd9ef0461cf8d", null ],
     [ "libwacom_has_ring", "group__devices.html#ga3090bd61bf9739619ed58fc7154dba78", null ],
     [ "libwacom_has_ring2", "group__devices.html#ga059947f8b1917c5e2939c4886b56067b", null ],
     [ "libwacom_has_stylus", "group__devices.html#ga07869844856ccbdd2c18599a79775e34", null ],
@@ -156,6 +176,7 @@ var libwacom_8h =
     [ "libwacom_is_builtin", "group__devices.html#ga802170200f00ba89d4b5d2f4f0bc88a4", null ],
     [ "libwacom_is_reversible", "group__devices.html#gaa52facf4eda6bdd89f4fb15dabe8bfd8", null ],
     [ "libwacom_list_devices_from_database", "group__devices.html#gaacc8260759c9cb05d0921ec34d4f4014", null ],
+    [ "libwacom_list_styli_from_database", "group__styli.html#ga8024fcd4cf0e0529a602f4ba0c600d76", null ],
     [ "libwacom_match_get_bustype", "group__devices.html#ga9159afd9136fb5f712669d0472553fc5", null ],
     [ "libwacom_match_get_match_string", "group__devices.html#gae33c0a3621f10157d99d27bd9f236959", null ],
     [ "libwacom_match_get_name", "group__devices.html#ga92faa2c00d81c4c3b2f22287fdc29f7b", null ],
@@ -170,14 +191,17 @@ var libwacom_8h =
     [ "libwacom_print_stylus_description", "group__styli.html#ga84b9c038c3d9f53c8c9fed4ff30f71f2", null ],
     [ "libwacom_stylus_get_axes", "group__styli.html#ga28c212a70b84efb5d06460c95f87d6d2", null ],
     [ "libwacom_stylus_get_eraser_type", "group__styli.html#ga7299684f73159055f5b4e3ceb5b0f4d0", null ],
-    [ "libwacom_stylus_get_for_id", "group__styli.html#gad752d1295ef33147c00835f3e63b06ae", null ],
+    [ "libwacom_stylus_get_for_id", "group__styli.html#ga9e62921ea8d1d8a0b3cb68ba007e15ce", null ],
     [ "libwacom_stylus_get_id", "group__styli.html#ga3bf965e3a2f36456e199937f47987ff3", null ],
     [ "libwacom_stylus_get_name", "group__styli.html#ga53b61fca963dd13802023e6699216ae2", null ],
     [ "libwacom_stylus_get_num_buttons", "group__styli.html#gad9d62c054e587e4453074c25969bb97b", null ],
-    [ "libwacom_stylus_get_paired_ids", "group__styli.html#ga02eacf58a591b6ae9462fbe66a852f31", null ],
+    [ "libwacom_stylus_get_paired_ids", "group__styli.html#gadb6cc0e16ed301484f120de707d4e26e", null ],
+    [ "libwacom_stylus_get_paired_styli", "group__styli.html#ga9f794cff42ec3a7d6e164e02816d3384", null ],
     [ "libwacom_stylus_get_type", "group__styli.html#ga17d53291902335a21b0d30dbaee15bf9", null ],
+    [ "libwacom_stylus_get_vendor_id", "group__styli.html#gac385cd5af11d7fb7f1a8ee1b66cfe91a", null ],
     [ "libwacom_stylus_has_eraser", "group__styli.html#gaa5042d687a5ca7c3b8625d7db1143356", null ],
     [ "libwacom_stylus_has_lens", "group__styli.html#ga3302fa288fae4c8057ae75d4120c075e", null ],
     [ "libwacom_stylus_has_wheel", "group__styli.html#ga25750936d41579fa5cb0d5296e68d7f8", null ],
-    [ "libwacom_stylus_is_eraser", "group__styli.html#gadeebad73b4bce9f9791ef59e07b8c051", null ]
+    [ "libwacom_stylus_is_eraser", "group__styli.html#gadeebad73b4bce9f9791ef59e07b8c051", null ],
+    [ "libwacom_stylus_is_generic", "group__styli.html#gaf3f387a2a713ab790fd40242573617c7", null ]
 ];
